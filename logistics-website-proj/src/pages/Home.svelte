@@ -31,18 +31,18 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 100vh; /* Ensure the wrapper has a height */
+        height: 100vh;
         width: auto;
     }
     
     .bg-filter {
-        position: absolute; /* Position absolute to cover the hero wrapper */
+        position: absolute;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: rgba(0, 0, 0, 0.4); /* Dim the background */
-        z-index: 1; /* Ensure it's above the background image */
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index: 1; 
     }
 
     .guide-wrapper {
