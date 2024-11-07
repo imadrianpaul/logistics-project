@@ -15,6 +15,7 @@
 </div>
 
 <style>
+
     .features {
 
         max-width: 600px;
@@ -37,7 +38,7 @@
     .features-title {
         font-size: 24px;
         margin: 0.5rem 0;
-        color: #333;
+        color: rgb(127, 91,23);
     }
 
     .features-description {

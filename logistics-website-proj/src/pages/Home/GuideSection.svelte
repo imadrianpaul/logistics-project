@@ -76,6 +76,7 @@
         text-align: left;
         font-size: 16px;
         font-weight: normal;
+        font-family: Inter, sans-serif;
         width: 315px;
 
     }

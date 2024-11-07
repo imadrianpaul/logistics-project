@@ -1,7 +1,7 @@
 <script>
+
     import {FaArrowRight} from "svelte-icons/fa";
     import {FaTruck} from "svelte-icons/fa";
-
 
 </script>
 
@@ -74,6 +74,11 @@
         color: #333;
         text-transform: uppercase;
         font-family: Unbounded, sans-serif;
+
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(254, 162, 56, 1));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent
+        
     }
 
     .hero-desc {
@@ -104,6 +109,7 @@
         font-size: 24px;
         text-align: center;
         text-transform: uppercase;
+        font-family: Unbounded, sans-serif;
     }
 
     .circle-icon {
@@ -165,12 +171,14 @@
     .track-text {
         padding-bottom: 1rem;
         font-size: 24px;
+        font-weight: bold;
         text-transform: uppercase;
         color: #fff;
     }
     
     .track-button-text {
         font-size: 24px;
+        font-family: Unbounded, sans-serif;
         text-align: center;
         text-transform: uppercase;
     }
@@ -187,6 +195,7 @@
     }
 
     .track-button {
+        
         padding: 0 4rem;
         margin: 1rem;
         height: 75px;

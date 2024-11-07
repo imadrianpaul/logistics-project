@@ -3,7 +3,7 @@
     import Cards from "../../components/HomePage/Cards.svelte";
     import Features from "../../components/HomePage/Features.svelte";
 
-    </script>
+</script>
 
 <section class="s-d-f-section">
     <div class="services-content">
@@ -33,7 +33,7 @@
                     description="Delivery by a specific time +/- 20 minutes"
                     description2="Last cut-off time: 7:00 PM"
                 >
-                    <button slot="actions" class="card-button">From $13</button>
+                <button slot="actions" class="card-button">From $13</button>
                 </Cards>
 
                 <Cards
@@ -153,7 +153,7 @@
         padding: 0 1rem;
         justify-content: center;
         align-items: center;
-        display:flexbox;
+        display: flexbox;
     }
 
     .services-title-main {
@@ -168,7 +168,7 @@
 
         color: rgb(127, 91,23);
         font-size: 24px;
-        height: 50px;
+        height: 100px;
         width: 300px;
 
     }
@@ -207,6 +207,24 @@
         grid-template-columns: repeat(4, 1fr);
         gap: 2.5rem;
 
+    }
+
+    .card-button {
+
+        padding: 0 3rem;
+        margin: 1rem;
+        height: 75px; 
+        justify-content: center;
+        align-items: center;
+        background-color: #fea238;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        font-size: 24px;
+        font-family: Unbounded, sans-serif;
 
     }
 

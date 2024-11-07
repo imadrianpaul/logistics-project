@@ -58,7 +58,8 @@
         text-decoration: none;
         color: #ffffff;
         transition: color 0.3s ease;
-        font-weight: bold;
+        font-weight: 500;
+        font-family: Inter, sans-serif;
     }
 
     .nav-links li a:hover {
@@ -78,8 +79,9 @@
         border-radius: 50px;
         cursor: pointer;
         transition: background-color 0.3s ease;
-        font-weight: bold; /* Makes text bold */
-        font-size: 20px; /* Ensures consistent font size */
+        font-weight: 500; 
+        font-size: 20px; 
+        font-family: Inter, sans-serif;
         text-transform: uppercase;
     }
 
@@ -88,4 +90,49 @@
         margin-top: 0.25rem;
         padding-bottom: 0.25rem;
     }
+
+    @media (max-width: 768px) {
+
+        .nav-bar {
+        padding: 1rem;
+        flex-direction: column;
+        background-color: #333; /* Set a solid color background for readability */
+        }
+
+        .nav-links {
+        flex-direction: column;
+        gap: 1rem;
+        }
+
+        .sign-up-button {
+        width: 100%;
+        height: 50px;
+        font-size: 16px;
+        padding: 0.5rem 1rem;
+        }
+
+    }
+
+    /* Mobile Layout */
+    @media (max-width: 480px) {
+        
+        .nav-bar {
+            padding: 0.5rem;
+        }
+
+        .nav-links {
+            gap: 0.5rem;
+            font-size: 16px;
+        }
+
+        .sign-up-button {
+            font-size: 14px;
+            padding: 0.5rem 1rem;
+        }
+
+        .nav-links li a {
+            font-size: 14px;
+        }
+    }
+
 </style>
